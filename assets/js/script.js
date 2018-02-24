@@ -1,8 +1,6 @@
-$(function () {
-
-	// Globals variables
-
-		// 	An array containing objects with information about the products.
+$(function() {
+  // Globals variables
+  // 	An array containing objects with information about the products.
 	var products = [],
 
 		// Our filters object will contain an array of values for each filter
@@ -21,7 +19,7 @@ $(function () {
 
 	var checkboxes = $('.all-products input[type=checkbox]');
 
-	checkboxes.click(function () {
+	checkboxes.click(function() {
 
 		var that = $(this),
 			specName = that.attr('name');
