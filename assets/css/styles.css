@@ -1,43 +1,151 @@
-body{
-	font: normal 16px Arial, Helvetica, sans-serif;
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
 }
 
-h1, h3{
-	font: normal 24px 'Open Sans', Arial, Helvetica, sans-serif;
+main {
+	padding-top: 165px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	/*color: #9B9B9B;*/
+	/*color: #4A4A4A;*/
+	color: #B8B8B8;
+}
+
+nav {
+	background-color: #fff!important;
+}
+
+input {
+	border-radius: 0!important;
+	border: 1px solid #000 !important;
+	color: #000 !important;
+}
+
+button {
+	border-radius: 0!important;
 }
 
 /*-----------------
-	The Header
+	Header
 ------------------*/
+#info-bar {
+	font-size: 0.8rem;
+	background-color: #000;
+}
 
+#main-nav {
+	background-color: #fff!important;
+}
 
+.navbar-brand {
+	font-size: 3rem!important;
+	font-weight: 700;
+}
+
+.navbar-nav {
+	font-size: 0.9rem;
+	align-items: baseline;
+}
+
+#shoppingCart {
+	font-size: 1.1rem;
+}
+
+.navbar-nav a {
+	color: #B8B8B8 !important;
+}
+
+#searchForm {
+	border: 1px solid #000 !important;
+}
+
+#searchBox input {
+	border: 1px solid transparent !important;
+	padding: 0 0 0 36px !important;
+	color: #000 !important;
+	width: 400px !important;
+	font-size: 0.8rem !important;
+}
+
+#searchIcon {
+	background-color: #fff !important;
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+}
+
+#searchBtn {
+	border: 1px solid transparent !important;
+	border-left: 1px solid #000 !important;
+	font-size: 0.8rem !important;
+}
+
+#searchBtn:hover {
+	background-color: #000;
+}
+
+#shopping:hover {
+	color: #000;
+}
+
+#category-bar {
+	font-size: 0.9rem;
+	font-weight: 700;
+}
 
 /*-----------------
-	Main Content
+	Footer
 ------------------*/
-
-
-.main-content{
-	box-sizing: border-box;
-	text-align: center;
-	margin: 125px auto 60px;
-	padding: 0 40px;
+#footer-nav {
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 0.8rem;
+	text-align: right;
 }
 
-.main-content h3{
-	font-size: 28px;
-	color:  #5a96b9;
-	padding-bottom: 20px;
+.footerTitle {
+	font-size: 1rem;
+	font-weight: 700;
 }
 
-@media (max-width: 600px){
-	.main-content{
-		margin: 45px auto;
-		padding: 0 25px;
-	}
-
+#footerLinks {
+	font-size: 0.8rem;
+	border-bottom: 1px solid #E5E5E5;
 }
 
+.footerText {
+	font-size: 0.9rem;
+}
+
+.social {
+	font-size: 2rem;
+}
+
+/*-----------------
+	Home
+------------------*/
+/* Make the image fully responsive */
+.carousel h6 {
+	font-weight: 700;
+	font-size: 0.95rem;
+}
+
+.thumb {
+	display: inline-block;
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
 
 /*-------------------
 	All Products Page
@@ -45,7 +153,7 @@ h1, h3{
 
 /*	Filter Form	*/
 
-.filters{
+.filters {
 	box-sizing: border-box;
 	padding: 5px 30px 30px;
 	width: 190px;
